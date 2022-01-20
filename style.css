@@ -1,0 +1,83 @@
+:root {
+	background-color: #22212c;
+	color: #837e9f;
+}
+
+body {
+	display: grid;
+	grid-template-areas:
+		"profile myprojects myprojects"
+		"profile project1 project2"
+		"links recent-post recent-post"
+		"links post post "
+		"technologies null null"
+		"experience null null"
+		"education null null"
+		"footer footer footer";
+}
+
+section.profile {
+	background-color: #302f3d;
+	border-radius: 20px;
+	grid-area: profile;
+	width: 348px;
+	height: 292px;
+	margin-left: 40px;
+	margin-top: 40px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.img-perfil {
+	margin-top: 32px;
+	margin-left: 110px;
+}
+
+.nome {
+	margin-top: 30px;
+	text-align: center;
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 29px;
+	color: #837e9f;
+}
+.function {
+	text-align: center;
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: 300;
+}
+
+section.myprojects {
+	grid-area: myprojects;
+}
+section.project1 {
+	grid-area: project1;
+}
+section.project2 {
+	grid-area: project2;
+}
+section.links {
+	grid-area: links;
+}
+section.recent-post {
+	grid-area: recent-post;
+}
+section.post {
+	grid-area: post;
+}
+section.technologies {
+	grid-area: technologies;
+}
+section.experience {
+	grid-area: experience;
+}
+section.education {
+	grid-area: education;
+}
+section.footer {
+	grid-area: footer;
+}
+section.null {
+	grid-area: null;
+}
