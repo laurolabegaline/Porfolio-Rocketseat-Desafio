@@ -60,6 +60,7 @@ section.myprojects {
 section.myprojects div {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-left: 30px;
 	margin-right: 30px;
 	margin: 15px 30px;
@@ -106,7 +107,7 @@ section.links {
 	width: 24px;
 	height: 24px;
 }
-section.project1 {
+.project1 {
 	grid-area: project1;
 	width: 461px;
 	height: 186px;
@@ -114,6 +115,25 @@ section.project1 {
 	border-radius: 20px;
 	margin-left: 60px;
 }
+.topo-project1 {
+	padding: 10px 30px;
+}
+.topo-project1 div img {
+	padding-right: 15px;
+}
+.topo-project1 p {
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #837e9f;
+}
+.footer-project1 {
+	display: flex;
+	justify-content: space-between;
+}
+
 /*                                   */
 /*               Falta fazer         */
 /*                                   */
