@@ -1,6 +1,7 @@
 :root {
 	background-color: #22212c;
 	color: #837e9f;
+	font-family: Merriweather Sans;
 }
 
 body {
@@ -52,7 +53,7 @@ section.myprojects {
 	grid-area: myprojects;
 	background-color: #302f3d;
 	border-radius: 20px;
-	margin-top: 40px;
+	margin: 40px 60px 40px;
 	width: 952px;
 	height: 86px;
 }
@@ -63,31 +64,81 @@ section.myprojects div {
 	margin-right: 30px;
 	margin: 15px 30px;
 }
-section.myprojects div p.myprojects-1 {
-	font-family: Merriweather Sans;
+.myprojects-1 {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 25px;
 	color: #837e9f;
 }
-section.myprojects div p.myprojects-2 {
+.myprojects-2 {
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #837e9f;
+	padding-top: 5px;
 }
-/*                                   */
-/*                                   */
-/*                                   */
-/*                                   */
-section.project1 {
-	grid-area: project1;
-}
-section.project2 {
-	grid-area: project2;
-}
+
 section.links {
 	grid-area: links;
+	width: 348px;
+	height: 348px;
+	margin-left: 40px;
+	margin-top: 30px;
+	background: #302f3d;
+	border-radius: 20px;
+}
+.list-links {
+	padding: 10px 40px;
+}
+.list-links p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #837e9f;
+	align-content: center;
+}
+.list-links img {
+	padding-right: 20px;
+	width: 24px;
+	height: 24px;
+}
+section.project1 {
+	grid-area: project1;
+	width: 461px;
+	height: 186px;
+	background: #302f3d;
+	border-radius: 20px;
+	margin-left: 60px;
+}
+/*                                   */
+/*               Falta fazer         */
+/*                                   */
+/*                                   */
+section.project2 {
+	grid-area: project2;
+	width: 461px;
+	height: 186px;
+	background: #302f3d;
+	border-radius: 20px;
+	margin-right: 40px;
 }
 section.recent-post {
 	grid-area: recent-post;
+	width: 952px;
+	height: 86px;
+	border-radius: 20px;
+	margin-top: 40px;
+	margin-left: 60px;
+	background: #302f3d;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #837e9f;
 }
 section.post {
 	grid-area: post;
