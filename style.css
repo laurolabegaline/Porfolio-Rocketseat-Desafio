@@ -50,7 +50,33 @@ section.profile {
 
 section.myprojects {
 	grid-area: myprojects;
+	background-color: #302f3d;
+	border-radius: 20px;
+	margin-top: 40px;
+	width: 952px;
+	height: 86px;
 }
+section.myprojects div {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin: 15px 30px;
+}
+section.myprojects div p.myprojects-1 {
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #837e9f;
+}
+section.myprojects div p.myprojects-2 {
+}
+/*                                   */
+/*                                   */
+/*                                   */
+/*                                   */
 section.project1 {
 	grid-area: project1;
 }
