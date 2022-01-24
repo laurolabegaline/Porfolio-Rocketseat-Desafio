@@ -61,7 +61,7 @@ section.myprojects div {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 30px;
+	margin-left: 10%;
 	margin-right: 30px;
 	margin: 15px 30px;
 }
@@ -114,14 +114,18 @@ section.links {
 	background: #302f3d;
 	border-radius: 20px;
 	margin-left: 60px;
+	align-items: center;
 }
-.topo-project1 {
-	padding: 10px 30px;
+.topo-project {
+	padding: 10px 30px 1px 30px;
+	align-items: center;
 }
-.topo-project1 div img {
-	padding-right: 15px;
+.topo-project div img {
+	padding-right: 5px;
+	align-items: center;
 }
-.topo-project1 p {
+
+.topo-project p {
 	font-family: Merriweather Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -129,24 +133,34 @@ section.links {
 	line-height: 20px;
 	color: #837e9f;
 }
-.footer-project1 {
+.footer-project {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	align-items: center;
+}
+.footer-project h4 {
+	width: 80px;
+}
+.footer-project .js {
+	margin-left: 40%;
 }
 
-/*                                   */
-/*               Falta fazer         */
-/*                                   */
-/*                                   */
 section.project2 {
 	grid-area: project2;
 	width: 461px;
 	height: 186px;
 	background: #302f3d;
 	border-radius: 20px;
-	margin-right: 40px;
+
 }
-section.recent-post {
+.projects-app{
+
+}
+/*                                   */
+/*               Falta fazer         */
+/*                                   */
+/*                                   */
+ section.recent-post {
 	grid-area: recent-post;
 	width: 952px;
 	height: 86px;
@@ -177,4 +191,4 @@ section.footer {
 }
 section.null {
 	grid-area: null;
-}
+} */ */
