@@ -27,13 +27,12 @@ section.profile {
 	margin-top: 40px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.card	{
+.card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
 	padding: 5%;
-
 }
 .img-perfil {
 	width: 148px;
@@ -55,7 +54,7 @@ section.profile {
 	font-style: normal;
 	font-weight: 300;
 	font-size: 13px;
-    line-height: 16px;
+	line-height: 16px;
 	margin: 0;
 }
 
@@ -103,7 +102,10 @@ section.links {
 	border-radius: 20px;
 }
 .list-links {
-	padding: 10px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 20px;
 }
 .list-links p {
 	font-style: normal;
@@ -111,15 +113,19 @@ section.links {
 	font-size: 12px;
 	line-height: 15px;
 	color: #837e9f;
+	align-items: center;
 	align-content: center;
+	margin: 3px 0px 15px 18px;
 }
 .list-links img {
 	padding-right: 20px;
 	width: 24px;
 	height: 24px;
+	align-items: center;
+	align-content: center;
 }
 .container-projects {
-	grid-area: container-projects ;
+	grid-area: container-projects;
 	display: flex;
 	width: 952px;
 	justify-content: space-between;
@@ -177,8 +183,6 @@ section.recent-post {
 	margin-top: 40px;
 	margin-left: 60px;
 	background: #302f3d;
-
-	
 }
 .recent-post div p {
 	font-style: normal;
@@ -188,7 +192,7 @@ section.recent-post {
 	color: #837e9f;
 	padding: 10px 25px;
 }
- section.post {
+section.post {
 	grid-area: post;
 	width: 952px;
 	height: 201px;
@@ -208,13 +212,16 @@ section.recent-post {
 	height: 129px;
 	margin-top: 35px;
 }
+a {
+	color: whitesmoke;
+}
 .post h2 {
 	font-family: Merriweather Sans;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 23px;
-	color: #837E9F;
+	color: #837e9f;
 	margin: 0px;
 }
 p.date-post {
@@ -223,7 +230,7 @@ p.date-post {
 	font-weight: normal;
 	font-size: 13px;
 	line-height: 18px;
-	color: #837E9F;
+	color: #837e9f;
 	margin-top: 5px;
 	margin-bottom: 30px;
 }
@@ -233,7 +240,7 @@ p.description-post {
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
-	color: #837E9F;
+	color: #837e9f;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
@@ -246,43 +253,186 @@ p.description-post {
 	margin-right: 20px;
 }
 
-	/*                                   */
-	/*               Falta fazer         */
-	/*                                   */
-	/*                                   */
-
 section.technologies {
 	grid-area: technologies;
 	width: 348px;
-	height: 208px;	
+	height: 208px;
 	background: #302f3d;
 	border-radius: 20px;
-	margin: 30px 0px 30px 40px ;
+	margin: 30px 0px 30px 40px;
 }
+.tech-p {
+	margin: 30px 25px 10px 20px;
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #837e9f;
+}
+.techs-icons {
+	margin: 20px 25px 10px 20px;
+	display: grid;
+	align-content: center;
+	grid-template-areas:
+		"javajs react node"
+		"git github html"
+		"css elixir photo";
+}
+.techs-icons p {
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 13px;
+	text-align: center;
+	color: #000000;
+	margin: 5px 0px;
+}
+.icon-js {
+	grid-area: javajs;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-react {
+	grid-area: react;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-node {
+	grid-area: node;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-git {
+	grid-area: git;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-github {
+	grid-area: github;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-html {
+	grid-area: html;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-css {
+	grid-area: css;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-elixir {
+	grid-area: elixir;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+.icon-photo {
+	grid-area: photo;
+	width: 86px;
+	height: 24px;
+	background: #cb92b1;
+	border-radius: 30px;
+	margin: 5px;
+}
+
 section.experience {
 	grid-area: experience;
 	background: #302f3d;
 	border-radius: 20px;
-	margin: 30px 0px 30px 40px ;
+	margin: 30px 0px 30px 40px;
 	width: 348px;
 	height: 349px;
 }
+div.experience-p {
+	margin: 30px 25px 10px 20px;
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #837e9f;
+}
+div.experiencias {
+	width: 175px;
+	height: 243px;
+	margin-left: 40px;
+}
+div.job {
+	margin: 0px;
+}
+.job h3 {
+	margin: 20px 0px 5px 0px;
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: #837e9f;
+}
+.job p {
+	margin: 0px 0px 5px 0px;
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #837e9f;
+}
+
 section.education {
 	grid-area: education;
 	background: #302f3d;
 	border-radius: 20px;
-	margin: 30px 0px 30px 40px ;
+	margin: 30px 0px 30px 40px;
 	width: 348px;
 	height: 352px;
 }
+div.education-p {
+	margin: 30px 25px 10px 20px;
+	font-family: Merriweather Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #837e9f;
+}
+div.educations {
+	width: 175px;
+	height: 243px;
+	margin-left: 40px;
+}
+
 section.footer {
 	grid-area: footer;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
-	width: 100vh;
-
+	width: 100%;
 }
-section.null {
-	grid-area: null;
-} */ */
