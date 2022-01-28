@@ -1,5 +1,5 @@
 :root {
-	background-color: #22212c;
+	background-color: #000000;
 	color: #837e9f;
 	font-family: Merriweather Sans;
 }
@@ -13,7 +13,7 @@ body {
 		"links post post "
 		"technologies null null"
 		"experience null null"
-		"education null null"
+		"education astro astro"
 		"footer footer footer";
 }
 
@@ -232,7 +232,7 @@ p.date-post {
 	line-height: 18px;
 	color: #837e9f;
 	margin-top: 5px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 p.description-post {
 	font-family: Merriweather Sans;
@@ -241,7 +241,7 @@ p.description-post {
 	font-size: 16px;
 	line-height: 20px;
 	color: #837e9f;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 0px;
 }
 .hastags-post {
@@ -286,14 +286,14 @@ section.technologies {
 	font-size: 10px;
 	line-height: 13px;
 	text-align: center;
-	color: #000000;
+	color: white;
 	margin: 5px 0px;
 }
 .icon-js {
 	grid-area: javajs;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -301,7 +301,7 @@ section.technologies {
 	grid-area: react;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -309,7 +309,7 @@ section.technologies {
 	grid-area: node;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -317,7 +317,7 @@ section.technologies {
 	grid-area: git;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -325,7 +325,7 @@ section.technologies {
 	grid-area: github;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -333,7 +333,7 @@ section.technologies {
 	grid-area: html;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -341,7 +341,7 @@ section.technologies {
 	grid-area: css;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -349,7 +349,7 @@ section.technologies {
 	grid-area: elixir;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -357,7 +357,7 @@ section.technologies {
 	grid-area: photo;
 	width: 86px;
 	height: 24px;
-	background: #cb92b1;
+	background: #8257e5;
 	border-radius: 30px;
 	margin: 5px;
 }
@@ -426,6 +426,16 @@ div.educations {
 	width: 175px;
 	height: 243px;
 	margin-left: 40px;
+}
+section.astronauta {
+	grid-area: astro;
+}
+.astro-img img {
+	position: absolute;
+	margin: 0;
+	width: 400px;
+	height: 400px;
+	right: -150px;
 }
 
 section.footer {
